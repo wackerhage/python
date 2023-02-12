@@ -1,0 +1,13 @@
+valor_casa=float(input("Digite o valor da casa a comprar: "))
+salario=float(input("Digite o seu salario atual: "))
+quantidade_anos=int(input("Digite a quantidade de anos a pagar: "))
+
+quantidade_anos = quantidade_anos * 12
+prestacao = valor_casa / quantidade_anos
+
+if prestacao <= (salario * 0.3):
+    print("O seu emprestimo bancario foi aprovado!")
+else:
+    print("O seu emprestimo bancario foi rejeitado.")
+
+print("O valor da prestacao sera de: ", prestacao)
