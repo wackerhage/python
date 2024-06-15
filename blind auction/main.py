@@ -9,7 +9,7 @@ bids = {}
 game = True
 
 def finding_highest_bid(bidding_record):
-  # biddings = bids{} = {"dom": 30, "mod": 10}
+  # biddings_record = bids{} = {"dom": 30, "mod": 10}
   reference_value = 0
   winner = ""
   for key in bidding_record:
