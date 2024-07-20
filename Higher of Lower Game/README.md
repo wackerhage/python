@@ -1,1 +1,1 @@
-
+This is a game where the user must guess who has more followers, A or B. The game has a score and has only one try. If the user wins, the score will be displayed. If the user loses, then the game ends, leaving the final score.
