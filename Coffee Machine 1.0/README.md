@@ -1,1 +1,1 @@
-
+This is a project where the the user can pick one type of coffee. Any of those have a price. The machine has its own resource. Until the resource is enough, then the user can pick any coffee of his choice. In this program, i'm using a dictionary to fix the costs and ingredients. There is also a monetary value, since the machine only accepts coins, which are dimes, quarters, nickles and pennies.
