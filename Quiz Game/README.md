@@ -13,23 +13,23 @@ Fácil adição de novas perguntas
 
 <br><h2> Tecnologias </h2>
 
-Python 3.12
+Python 3.12  <br>
 
 <br><h2> Requisitos </h2>
 
-Python 3.12 instalado no sistema
+Python 3.12 instalado no sistema <br>
 
 <br><h2> Como Executar </h2>
 
-Clone este repositório para sua máquina local:
+Clone este repositório para sua máquina local: <br> <br>
 
-git clone https://github.com/seu-usuario/quiz-game.git
+git clone https://github.com/seu-usuario/quiz-game.git <br> <br>
 
-Navegue até o diretório do projeto:
+Navegue até o diretório do projeto: <br>
 
-cd quiz-game
+cd quiz-game  <br> <br>
 
-Execute o jogo:
+Execute o jogo: <br> <br>
 
 python main.py
 
