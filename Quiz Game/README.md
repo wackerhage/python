@@ -21,15 +21,15 @@ Python 3.12 instalado no sistema <br>
 
 <br><h2> Como Executar </h2>
 
-Clone este repositório para sua máquina local: <br> <br>
+Clone este repositório para sua máquina local: <br>
 
-git clone https://github.com/seu-usuario/quiz-game.git <br> <br>
+git clone https://github.com/seu-usuario/quiz-game.git <br>
 
 Navegue até o diretório do projeto: <br>
 
-cd quiz-game  <br> <br>
+cd quiz-game  <br>
 
-Execute o jogo: <br> <br>
+Execute o jogo: <br>
 
 python main.py
 
