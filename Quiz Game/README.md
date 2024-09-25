@@ -5,10 +5,10 @@ Este é um jogo de perguntas e respostas simples em Python, implementado utiliza
 
 <br><h2> Funcionalidades </h2>
 
-Sistema de perguntas de verdadeiro e falso
-Contagem de pontos baseada nas respostas corretas
-Feedback instantâneo após cada pergunta (correta/incorreta)
-Interface de terminal simples
+Sistema de perguntas de verdadeiro e falso <br>
+Contagem de pontos baseada nas respostas corretas  <br>
+Feedback instantâneo após cada pergunta (correta/incorreta) <br>
+Interface de terminal simples <br>
 Fácil adição de novas perguntas
 
 <br><h2> Tecnologias </h2>
