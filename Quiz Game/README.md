@@ -36,7 +36,7 @@ python main.py
 <br><h2> Estrutura de Arquivos </h2>
 
 quiz-game/               <br>
-│                        <br>
+ │                        <br>
 ├── main.py              # Arquivo principal do jogo                                                                           <br>
 ├── quiz_brain.py        # Classe QuizBrain onde sera realizada a logica de programacao do quiz                                <br>
 ├── question_model.py    # Classe Question com o construtor init, com as variaveis text e answer, entrando como parametros     <br>
