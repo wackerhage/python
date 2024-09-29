@@ -1,4 +1,4 @@
-<h1> Hirst Paiting </h1>
+<h1> Turtle Race </h1>
 
 Este é um jogo que criei, utilizando o tkinter, turtle e random, baseando em OOP onde cada tartaruga foi criado como objeto, compartilhando elas os mesmos metodos, com distintos atributos. O usuario escolhe a cor da tartaruga que ira ganhar, e o algoritmo ira randomizar os passos de cada objeto (tartaruga). Ao final, o usuario é informado se acertou ou errou, e é pedido se o mesmo deseja comecar novamente. Neste jogo foi implementado o GUI, interface grafica do user e todas as mensagens estao sendo geradas como pop up na tela, incluindo os inputs.
 
