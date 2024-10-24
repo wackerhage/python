@@ -1,3 +1,3 @@
 This is Python Challenge proposed in HackRank.
 
-![Project Screenshot](python/List Comprehensions/List Comprehensions | HackerRank.png)
+![Project Screenshot](List Comprehensions/img1.png)
