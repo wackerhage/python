@@ -14,3 +14,5 @@ List of:
 - image_link -> link da imagem do produto
 - price -> preço da oferta
 - title -> título da oferta
+
+
