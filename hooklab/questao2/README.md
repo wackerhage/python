@@ -7,8 +7,7 @@ O arquivo possui inúmeras informações utilizadas pelo site para mostrar os re
 seu trabalho é extrair uma lista com as ofertas resultantes da pesquisa. O objetivo é extrair
 os atributos principais das ofertas.
 
-Exemplo de pesquisa: https://www.climario.com.br/geladeira?
-_q=geladeira&map=ft
+Exemplo de pesquisa: https://www.climario.com.br/geladeira?_q=geladeira&map=ft
 
 List of:
 - offer_link -> link da oferta
