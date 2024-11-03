@@ -30,7 +30,7 @@ try:
     # Entao utilizei a variavel availability para capturar este trecho, e se achar "InStock", entao ha estoque:
 
     if "InStock" in availability:
-        stock_availability = "Disponibilidade: Em estoque."
+        stock_availability = "Em estoque."
 
 finally:
     driver.quit()
