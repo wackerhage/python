@@ -38,7 +38,7 @@ data = [[text1, link1, upvote1],[text2, link2, upvote2],[text3, link3, upvote3]]
 
 df = pd.DataFrame(data, columns=excel_header)
 
-writer = pd.ExcelWriter('file1.xlsx', engine ='xlsxwriter')
+writer = pd.ExcelWriter('arquivo_excel.xlsx', engine ='xlsxwriter')
 
 df.to_excel(writer, sheet_name= "Postagens")
 
