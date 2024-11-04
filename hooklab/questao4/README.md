@@ -17,24 +17,24 @@ itens:
 
 Exploração dos Dados
 
-● Carregue os dados JSON utilizando a biblioteca Pandas.
-● Examine as primeiras linhas do conjunto de dados para entender sua
+<br>- Carregue os dados JSON utilizando a biblioteca Pandas.
+<br>- Examine as primeiras linhas do conjunto de dados para entender sua
 estrutura.
-● Verifique a presença de quaisquer valores ausentes nos dados.
-● Identifique a quantidade total de compras realizadas.
+<br>- Verifique a presença de quaisquer valores ausentes nos dados.
+<br>- Identifique a quantidade total de compras realizadas.
 Análise de Compras
-● Calcule a média, o valor mínimo e máximo gasto por compra.
-● Determine o produto mais caro e o produto mais barato.
+<br>- Calcule a média, o valor mínimo e máximo gasto por compra.
+<br>- Determine o produto mais caro e o produto mais barato.
 Segmentação por Gênero
-● Analise a distribuição de gênero entre os consumidores.
-● Calcule o valor total gasto em compras por gênero.
+<br>- Analise a distribuição de gênero entre os consumidores.
+<br>- Calcule o valor total gasto em compras por gênero.
 Visualização de Dados
-● Utilize gráficos adequados (como histogramas, gráficos de barras, etc.) para
+<br>- Utilize gráficos adequados (como histogramas, gráficos de barras, etc.) para
 ilustrar os insights obtidos. Fique à vontade.
-● Certifique-se de adicionar títulos e rótulos aos gráficos para facilitar a
+<br>- Certifique-se de adicionar títulos e rótulos aos gráficos para facilitar a
 compreensão.
 
 Como considerações finais:
 
-● Seu script deve funcionar para o conjunto de dados fornecido.
-● Fique à vontade para incrementar as análises.
+<br>- Seu script deve funcionar para o conjunto de dados fornecido.
+<br>- Fique à vontade para incrementar as análises.
