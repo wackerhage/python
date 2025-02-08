@@ -1,7 +1,10 @@
 from tkinter import *
 from random import randint, choice, shuffle
 from tkinter import messagebox
+from types import new_class
+
 import pyperclip
+import json
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
@@ -30,20 +33,52 @@ def generate_password():
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 def save():
+    new_data = {
+        input_website.get(): {
+            "email": input_email_username.get(),
+            "password": input_password.get(),
+        }
+    }
+
     if input_website.get() == "" or input_password.get() == "" or input_email_username.get() == "":
         empty_fields = messagebox.showerror(title="Oops!",
                                        message=f"There are missing fields.")
     else:
-        is_ok = messagebox.askokcancel(title=input_website.get(), message=f"These are the details entered: \nEmail: {input_email_username.get()}\nPassword: {input_password.get()}\n Is it ok to save it?")
+        try:
+            with open("data.json", mode="r") as data_file:
+                # Reading old data
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", mode="w") as data_file:
+                # Saving updated data
+                json.dump(new_data, data_file, indent=4)
+        else:
+            #updating
+            data.update(new_data)
 
-        if is_ok:
-            with open("data.txt", mode="a") as file:
-                file.write(f"{input_website.get()} | {input_password.get()} | {input_email_username.get()}\n")
-
+            with open("data.json", mode="w") as data_file:
+                # Saving updated data
+                json.dump(data, data_file, indent=4)
+        finally:
             input_website.delete(0, END)
             input_password.delete(0, END)
-            input_email_username.delete(0, END)
 
+# ---------------------------- PASSWORD FINDER SETUP ------------------------------- #
+
+def find_password():
+    try:
+        with open("data.json", mode="r") as data_file:
+            # Reading old data
+            data = json.load(data_file)
+        for key, value in data.items():
+            if input_website.get() != key:
+                sorry = messagebox.showinfo(title="Here's what I got.", message=f"No details for this website, sorry.")
+                break
+            else:
+                info = messagebox.showinfo(title="Here's what I got.", message=f"Email: {value['email']}  \n Password: {value['password']}")
+                break
+    except FileNotFoundError:
+        no_data = messagebox.showinfo(title="Here's what I got.", message=f"No data file found.")
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -68,16 +103,19 @@ label_password.grid(column=1, row=3)
 button_generate_password = Button(text="Generate Password", highlightbackground="white", command=generate_password)
 button_generate_password.grid(column=3, row=3)
 
-button_add = Button(text="Add", highlightbackground="white", width=50, command=save)
+button_add = Button(text="Add", highlightbackground="white", width=45, command=save)
 button_add.grid(column=2, row=4, columnspan=2)
 
-input_website = Entry(width=52, background="white", highlightbackground="white", fg="black")
-input_website.grid(column=2, row=1, columnspan=2)
+button_search = Button(width=13, text="Search", highlightbackground="white", command=find_password)
+button_search.grid(column=3, row=1)
 
-input_email_username = Entry(width=52, background="white", highlightbackground="white", fg="black")
+input_website = Entry(width=30, background="white", highlightbackground="white", fg="black")
+input_website.grid(column=2, row=1)
+
+input_email_username = Entry(width=47, background="white", highlightbackground="white", fg="black")
 input_email_username.grid(column=2, row=2, columnspan=2)
 
-input_password = Entry(width=35, background="white", highlightbackground="white", fg="black")
+input_password = Entry(width=30, background="white", highlightbackground="white", fg="black")
 input_password.grid(column=2, row=3)
 
 input_website.focus()
