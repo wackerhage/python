@@ -1,6 +1,6 @@
 <h1> Quiz Game </h1>
 
-Este é um jogo de perguntas e respostas simples em Python, implementado utilizando o paradigma de Programação Orientada a Objetos (POO). O jogo consiste em 10 perguntas sobre Ciencia da Computacao. Cada pergunta possui verdadeiro ou falso, sendo apenas uma a correta. O jogador ganha um ponto para cada resposta correta e, ao final do jogo, é exibida a pontuação final.
+Este é um jogo de perguntas e respostas em Python, implementado utilizando o paradigma de Programação Orientada a Objetos (POO), e utilizando GUI. O jogo consiste em perguntas sobre Ciencia da Computacao. Cada pergunta possui verdadeiro ou falso, sendo apenas uma a correta. O jogador ganha um ponto para cada resposta correta e, ao final do jogo, é exibida a pontuação final.
 
 
 <br><h2> Funcionalidades </h2>
