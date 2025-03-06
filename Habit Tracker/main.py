@@ -5,7 +5,7 @@ from urllib3 import request
 
 pixela_endpoint = "https://pixe.la/v1/users"
 USER_NAME = "wackerhage"
-TOKEN = "dkoskdaokdsoadkkds"
+TOKEN = "?"
 
 today = datetime(year=2025, month=3, day=5)
 
