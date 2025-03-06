@@ -10,12 +10,12 @@ STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-ALPHA_VANTAGE_API_KEY = "9HRJJASUU8UR3X74"
-NEWS_API = "1de7de0e794b436f9205827e19e710df"
+ALPHA_VANTAGE_API_KEY = "?"
+NEWS_API = "?"
 # account_sid = os.environ.get("ACCOUNT_SID")
 # auth_token = os.environ.get("AUTH_TOKEN")
-account_sid = "AC82af2d34a373b5a1a22a589f17d00c90"
-auth_token = "d36ce19afbe13871037438c8f9988843"
+account_sid = "?"
+auth_token = "?"
 
 parameters_stock = {
     "function": "TIME_SERIES_DAILY",
