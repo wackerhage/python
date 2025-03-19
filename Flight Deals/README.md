@@ -1,0 +1,1 @@
+This is a project using Twilio API, Amadeus API and sheety API to send a SMS alert every time a flight deal is cheap. It's using real time flights, and stored in a google sheet. Also, it's built as OOP.
