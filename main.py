@@ -12,8 +12,8 @@ load_dotenv()
 
 # CLIENT_ID = os.environ["CLIENT_ID"]
 # CLIENT_SECRET = os.environ["CLIENT_SECRET"]
-CLIENT_ID="c6fbc1f355b0448f93c3d0a20589e843"
-CLIENT_SECRET="5213258c56574a6c80d07dfd8690178c"
+CLIENT_ID=""
+CLIENT_SECRET=""
 REDIRECT_URI = "http://127.0.0.1:8888/"
 
 spotipy = spotipy.Spotify(auth_manager=SpotifyOAuth(
